@@ -1,11 +1,14 @@
 {
-  "name": "plausible-tracker",
+  "name": "@rosua/plausible-tracker",
   "version": "0.3.8",
-  "description": "Official frontend tracker to interact with Plausible Analytics",
+  "description": "[Forked] frontend tracker to interact with Plausible Analytics",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/plausible/plausible-tracker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orgrosua/plausible-tracker.git"
+  },
   "license": "MIT",
   "keywords": [],
   "scripts": {
